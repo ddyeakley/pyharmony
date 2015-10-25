@@ -35,7 +35,7 @@ class HarmonyClient(sleekxmpp.ClientXMPP):
         action_cmd = ET.Element('oa')
         action_cmd.attrib['xmlns'] = 'connect.logitech.com'
         action_cmd.attrib['mime'] = (
-            'vnd.logitech.pyharmony/vnd.logitech.pyharmony.engine?config')
+            'vnd.logitech.harmony/vnd.logitech.harmony.engine?config')
         iq_cmd.set_payload(action_cmd)
         result = iq_cmd.send(block=True)
         payload = result.get_payload()
