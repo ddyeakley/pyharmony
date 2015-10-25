@@ -7,8 +7,8 @@ import logging
 import pprint
 import sys
 
-from harmony import auth
-from harmony import client as harmony_client
+from pyharmony import auth
+from pyharmony import client as harmony_client
 
 
 def login_to_logitech(args):
