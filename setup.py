@@ -7,7 +7,7 @@ setup(
     license='See LICENSE',
     author='Jeff Terrace',
     author_email='Jeff Terrace <jterrace@gmail.com>',
-    url='https://github.com/ddyeakley/pyhwtherm',
+    url='https://github.com/ddyeakley/pyharmony',
     long_description="README.md",
     packages=['harmony'],
     include_package_data=False,
