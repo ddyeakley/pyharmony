@@ -9,7 +9,7 @@ setup(
     author_email='Jeff Terrace <jterrace@gmail.com>',
     url='https://github.com/ddyeakley/pyharmony',
     long_description="README.md",
-    packages=['auth', 'client'],
+    packages=['harmony'],
     include_package_data=False,
     description="Python library for connecting to and controlling the Logitech Harmony Link",
 )
