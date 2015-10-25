@@ -16,6 +16,12 @@ Status
 * Querying for entire device information
 * Sending a simple command to harmony device working.
 
+Install
+-------
+
+sudo pip install git+git://github.com/ddyeakley/pyharmony
+
+
 Usage
 -----
 
